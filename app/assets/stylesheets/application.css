@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+    font-family: "Proxima Nova", sans-serif;
+    color: #434b54;
+}
+
+.primary-color {
+    background: #3778c2;
+}
+
+.white-text {
+    color: #f8f9fa;
+}
+
+.menu-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 25px;
+}
