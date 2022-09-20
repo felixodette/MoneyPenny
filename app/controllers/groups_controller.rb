@@ -8,6 +8,11 @@ class GroupsController < ApplicationController
     @group = Group.new
   end
 
+  def show
+    @group = Group.find(params[:id])
+    @spendings = @group.spendings.order("created_at DESC")
+  end
+
   def create
     @group = Group.new(group_params)
     @group.user_id = current_user.id
