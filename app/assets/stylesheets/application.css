@@ -23,6 +23,10 @@ body {
     background: #3778c2;
 }
 
+.green {
+    background: #5fb523;
+}
+
 .white-text {
     color: #f8f9fa;
 }
@@ -32,7 +36,13 @@ body {
     border: none;
     outline: none;
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
+}
+
+.fa-house {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 8px;
 }
 
 .category-icon {
@@ -43,6 +53,10 @@ body {
 }
 
 .category-name {
-    color: #878a8f;
+    color: #434b54;
     text-decoration: none;
+}
+
+.gray-text {
+    color: #434b54;
 }
