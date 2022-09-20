@@ -10,7 +10,7 @@ class GroupsController < ApplicationController
 
   def show
     @group = Group.find(params[:id])
-    @spendings = @group.spendings.order("created_at DESC")
+    @spendings = @group.spendings.order('created_at DESC')
   end
 
   def create
