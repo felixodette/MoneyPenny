@@ -9,7 +9,7 @@
     <ul class="list-group list-group-flush">
       <li class="list-group-item d-flex justify-content-between bg-light">
         <p class="m-1 gray-text fs-5">TOTAL PAYMENT</p>
-        <p class="fw-semibold m-1 gray-text fs-5">$<%= @group.spendings.sum(:amount) %></p>
+        <p class="fw-semibold m-1 gray-text fs-5">$<%= @spendings.sum(:amount) %></p>
       </li>
       <% unless @spendings.empty? %>
         <% @spendings.each_with_index do |spen, idx| %>
