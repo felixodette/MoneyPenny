@@ -1,16 +1,20 @@
 class GroupsController < ApplicationController
+  before_action :authenticate_user!, except: [:index]
+
   def index
+    return unless current_user
+
     @user = current_user
     @groups = @user.groups
-  end
-
-  def new
-    @group = Group.new
   end
 
   def show
     @group = Group.find(params[:id])
     @spendings = @group.spendings.order('created_at DESC')
+  end
+
+  def new
+    @group = Group.new
   end
 
   def create
