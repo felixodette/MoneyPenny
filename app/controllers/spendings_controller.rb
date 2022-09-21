@@ -1,6 +1,6 @@
 class SpendingsController < ApplicationController
   def new
-    @spendings = Spending.new
+    @spending = Spending.new
   end
 
   def create
@@ -10,7 +10,7 @@ class SpendingsController < ApplicationController
                                group_id: group.to_i, user_id: current_user.id)
       @spending.save
     end
-    redirect_to groups_path(@groups.first.to_i)
+    redirect_to group_path(@groups.first.to_i)
   end
 
   private
