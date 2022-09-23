@@ -30,7 +30,8 @@ gem 'jbuilder'
 # Rubocop
 gem 'rubocop'
 
-# Ruby-FFI is a gem for programmatically loading dynamically-linked native libraries, binding functions within them, and calling those functions from Ruby
+# Ruby-FFI is a gem for programmatically loading dynamically-linked native libraries, binding functions within them,
+# and calling those functions from Ruby
 gem 'ffi'
 
 # Use Redis adapter to run Action Cable in production

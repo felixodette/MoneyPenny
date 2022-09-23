@@ -23,4 +23,3 @@ RSpec.describe 'Groups', type: :feature do
     expect(page).to have_content('Create a new category:')
   end
 end
-
