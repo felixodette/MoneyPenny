@@ -6,6 +6,7 @@
 
 ## Live demo:
 You can check out the live demo [here](https://evening-caverns-46069.herokuapp.com).
+And the video demonstration of the app [here](https://www.loom.com/share/a6b2675bfe30498b8c5ec7e3a660d6c2)
 
 ![Animation](https://user-images.githubusercontent.com/50721479/190150479-bc759674-9c64-45c2-8fb2-f2b08507d049.gif)
 
