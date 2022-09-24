@@ -8,6 +8,6 @@ class User < ApplicationRecord
   validates :email, presence: true
   validates :password, presence: true
 
-  has_many :groups, dependent: :delete_all
-  has_many :spendings, dependent: :delete_all
+  has_many :groups, dependent: :delete_all, foreign_key: :author_id
+  has_many :spendings, dependent: :delete_all, foreign_key: :author_id
 end
