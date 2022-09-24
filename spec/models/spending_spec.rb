@@ -9,10 +9,6 @@ RSpec.describe Spending, type: :model do
     @spending = Spending.new(name: 'Spending', amount: '20', group_id: @group.id)
   end
 
-  it 'is valid' do
-    expect(@spending).to be_valid
-  end
-
   it 'name should be present' do
     @spending.name = nil
     expect(@spending).to_not be_valid
