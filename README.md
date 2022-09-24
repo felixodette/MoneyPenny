@@ -59,9 +59,9 @@ $ rspec
 
 👤 **Felix Odete**
 
-- GitHub: [@felixodette](https://github.com/ha-manel)
-- Twitter: [@Odette3000](https://twitter.com/ha_manel_)
-- LinkedIn: [Felix Odete](https://www.linkedin.com/in/manel-hammouche/)
+- GitHub: [@felixodette](https://github.com/felixodette)
+- Twitter: [@Odette3000](https://twitter.com/Odette3000)
+- LinkedIn: [Felix Odete](https://www.linkedin.com/in/felixodete/)
 
 ## Acknowledgment
 - [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance.
